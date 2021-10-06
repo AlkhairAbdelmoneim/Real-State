@@ -1,0 +1,239 @@
+.digram{
+    margin: 5% 0 0;
+}
+
+.digram h1{
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+
+.digram .card{
+    box-shadow: 5px 5px 5px 0px #DDDDDD;
+}
+
+.side_menu .form-control::placeholder{
+    color: #6c757d;
+}
+
+.side_menu .form-search select{
+    background: none;
+}
+
+.side_menu .form-search select:first-child{
+    color: #6c757d;
+}
+
+.side_menu .form-search{
+    border: 2px solid #ddd;
+    padding: 10px;  
+}
+
+.digram .row .side_menu{
+    margin-left: 40px;
+    padding: 0 25px;
+}
+
+.digram .row .side_menu a{
+    display: block;
+}
+
+
+.digram .row .side_menu ul{
+    list-style: none;
+    padding-right: 0;
+    margin-top: 10px;
+    background-color: #ddd;
+    position: relative;
+}
+
+.digram .row .side_menu ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.digram .row .side_menu ul li a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #333;
+}
+
+
+.digram .row .side_menu ul li a::after{
+    content: "";
+    position: absolute;
+    left: 6px;
+    margin-top: 6px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+}
+
+.digram .row .side_menu ul li:hover{
+    background-color: #f03;
+    color: #fff;
+    transition: .3s;
+}
+
+.digram .row .side_menu ul li:hover a,
+.digram .row .side_menu ul li:hover small{
+    color: #fff;
+}
+
+.digram .row .side_menu ul li .small{
+    color: #f03;
+    margin-left: 20px;
+}
+
+.digram .row .side_menu ul li:not(:last-child){
+    border-bottom: 2px solid #fff;
+}
+.digram .row .content .details{
+    margin-top: 30px;
+}
+.digram .row .content .details .row div{
+    padding: 10px 20px 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 2%;
+    width: 49%;
+}
+
+.digram .row .content .details .row div:not(:last-child){
+    margin-left: 2%;   
+}
+
+.digram .row .content .details i{
+    font-size: 40px;
+    margin-top: 15px;
+}
+
+.digram .row .content .details span{
+    font-size: 20px;
+    line-height: 2;
+}
+
+.digram .all-card div:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.digram .fl-left h5{
+    font-size: 1.15rem;
+    line-height: normal;
+}
+
+.digram .card-body span{
+    font-size: 14px;
+}
+
+.digram .card-body .not-active{
+    background-color: #ff003317;
+    padding: 5px;
+    color: #f03;
+    display: block;
+    border-radius: 3px;
+    border: 1px dotted #f03;
+}
+
+.digram .details{
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
+
+.span-price{
+    float: left;
+    /* font-size: 18px;    */
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+    border-color: #f03 transparent transparent transparent;
+}
+
+.headers{
+    background-color: #ddd;
+    /* height: 40px; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.headers .div-content{
+    width: 100%;
+}
+
+.headers .div-content small{
+    color: #006eff;
+}
+.headers ul{
+    list-style-type: none;
+    display: flex;
+    font-size: 14px;
+    line-height: 2.6;
+    padding: 0;
+    margin: 0;
+}
+
+.header-color{
+    background-color: #eee;
+    margin-bottom: 16px;
+}
+
+.headers ul li a{
+    display: block;
+    color: #333;
+    font-weight: bold;
+}
+
+.headers ul div{
+    padding: 0 10px;
+}
+
+.headers ul div:hover{
+    /* background-color: rgba(51, 51, 51, 0.89); */
+    border-bottom: 1px solid #f03;
+    border-top: 1px solid #f03;
+
+}
+
+.headers ul div:hover a{
+    color: #f03;
+}
+
+.headers ul li:not(:last-child){
+    margin-left: 5px;
+}
+
+.headers ul li:hover{
+    cursor: pointer;
+}
+
+.headers ul li a{
+    text-decoration: none;
+}
+
+.headers ul li a:hover{
+    color: #f03;
+}
+
+.headers ul li span{
+    padding-right: 10px;
+    color: #333;
+}
+
+.text-content img{
+    padding: 0;
+}
+.text-content span{
+    color: #f03;
+    font-weight: bold;
+}
+.text-content p{
+    padding: 0;
+    line-height: 2;
+}
+
+
+.post-info{
+    padding: 0;
+    margin-bottom: 3%;
+}
+

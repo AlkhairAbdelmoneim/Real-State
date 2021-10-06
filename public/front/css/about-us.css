@@ -1,0 +1,217 @@
+/* .slider h2{
+    font-weight: bold;
+} */
+
+.slider .carousel-about{
+    background-image: url('../img/about.webp');
+}
+
+.slider .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: 2;
+}
+
+.carousel-caption{
+    z-index: 3;
+}
+
+.message{
+    margin-top: 3%;
+}
+
+.message .info{
+    padding: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.message .info a{
+    margin-left: 14rem;
+}
+
+.message .msg{
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.message .row .msg h3{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+.message .row .msg p{
+    font-size: 14px;
+    margin: 30px 0;
+    line-height: 2;
+}
+
+.message .row .info .image{
+    margin-top: 0;
+}
+
+
+.message .row .info .image img{
+    width: 69%;
+}
+/* .message .row .info .image img{
+    width: 69%;
+} */
+
+/* Start about commpany */
+.about-commpany span{
+    font-size: 22px;
+}
+
+.about-commpany span i{
+    font-size: 30px;
+    margin-left: 20px;    
+}
+
+.about-commpany p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.about-commpany .container > div{
+    margin-bottom: 4%;
+}
+
+.about-commpany .row div{
+    border: 1px solid #ddd;
+    padding: 25px;
+    width: 48%;
+}
+
+.about-commpany .row div:first-child{
+    margin-left: 4%;
+}
+
+/* End about commpany */
+
+/* Start box info */
+.box-info{
+    margin: 5% 0;
+}
+
+.box-info .row span{
+    border: 3px solid #ddd;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.box-info .row h5{
+    line-height: 3;
+    font-weight: bold;
+}
+
+.box-info .row p{
+    font-size: 14px;
+    margin: 15px 0;
+}
+/* End box info */
+
+/* Start commpany info */
+.commpany-info{
+    margin-top: 30px;
+}
+
+.commpany-info .row div{
+    margin-top: 33px;
+}
+.commpany-info .info i{
+    font-size: 50px;
+    margin-left: 15px;
+}
+
+.commpany-info h4{
+    font-weight: bold;
+
+}
+
+.commpany-info .info p{
+    margin-right: 40px;
+}
+/* End commpany info */
+
+
+/* Start media query */
+@media only screen and (min-width:280px){
+    .message{
+        padding: 0 10px;
+    }
+
+    .message .msg{
+        margin: 5% 0;
+    }
+
+    .about-commpany {
+        padding: 0 10px;
+    }
+
+    .box-info{
+        padding: 10px 0;
+    }
+}
+
+.footer{
+    padding: 20px;
+}
+
+@media only screen and (max-width:580px){
+    .about-commpany .row div{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:768px){
+    .footer{
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width:768px){
+
+    .message {
+        margin-top: 8%;
+    }
+
+    .commpany-info .row div{
+        margin-top: 10px;
+        border: 1px solid #ddd;
+        padding: 20px 10px 3px;
+        width: 48%;
+    }
+
+    .commpany-info .row div:last-child{
+        margin-right: 2%;
+    }
+
+    .commpany-info .row div:first-child{
+        margin-left: 2%;
+    }
+
+    .about-commpany .row div{
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (max-width:360px){
+    .commpany-info .row div{
+        width: 100%;
+    }
+
+    .commpany-info .row div:last-child{
+        margin-right: 0;
+    }
+}
+/* End media query */
+
+

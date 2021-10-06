@@ -1,0 +1,74 @@
+.digrams{
+    margin: 5% 0;
+}
+
+.digrams .row > div:nth-child(2){
+    margin-bottom: 2%;
+}
+
+.call-us{
+    background-color: #636e72;
+    margin-top: 5%;
+}
+
+.call-us .row div{
+    margin: 30px 0;
+}
+
+.call-us .row .box2{
+    text-align: left;
+    /* padding-top: 10px; */
+}
+
+.call-us button{
+    left: 10%;
+    top: 30%;
+    border: none;
+    background-color: rgba(0,0,0,.4);
+    border: 1px solid #ddd;
+    padding: 10px 30px;
+    box-shadow: 0 0 4px #ddd;
+    
+}
+
+.call-us button a{
+    color: #fff;
+}
+
+.call-us p{
+    font-size: 18px;
+}
+
+
+/* Start Megia Query */
+@media only screen and (min-width:768px){
+    .call-us{
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width:767px){
+
+    .digrams .row div:not(:last-child){
+        margin-bottom: 30px;
+    }
+    .call-us .row .box2{
+        text-align: right;
+    }
+
+    .call-us .row div {
+        margin: 5px 0;
+    }
+
+    .call-us {
+        height: 130px;
+        padding: 10px 0;
+    }
+}
+
+@media only screen and (max-width:325px){
+    .call-us{
+        height: 150px;
+    }
+}
+/* End Megia Query */
